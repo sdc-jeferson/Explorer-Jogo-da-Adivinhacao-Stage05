@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --ff-sans:'DM Sans', sans-serif;
+    --ff-montserrat:'Montserrat', sans-serif;
+}
+
+
+
+body{
+    height: 100vh;
+    font-size: 1.6rem;
+    background-color: #4D2DB7;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+body, html, button, input{
+    font-family: var(--ff-sans);
+}
+
+.hide{
+    display: none;
+}
+
+/*Screen 1*/
+
+main{
+    background: #ffffff;
+    box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: min(42.8rem, 90%); /*Exclenete para começar a usar*/
+    
+    margin-top:-12rem ;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--ff-montserrat);
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+h1, p{
+    color: #34355b;
+}
+
+p{
+    opacity: 0.8;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    border:none;
+    padding: 1.6rem;
+}
+
+input{
+    background-color: #dce2e9;
+    width: 6rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button{
+    background-color: #9400FF;
+    cursor: pointer;
+    border-radius: 0 .4rem .4rem 0;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    transition: background 0.3s;
+    
+}
+
+.screen2 button{
+    border-radius: .4rem;
+    margin-top: 3.3rem;   
+ 
+}
+
+button:hover{
+    background-color: #6e27a1;
+}
+
+/*Screen 2*/
+.screen2 h2{
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-bottom: 3.3rem;
+}
+
